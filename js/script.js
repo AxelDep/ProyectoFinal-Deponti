@@ -6,12 +6,15 @@ let materiasTemp = [];
 document.addEventListener('DOMContentLoaded', () => {
 
     // Cargar materias desde JSON externo
-    fetch('data/materias.json')
-        .then(res => res.json())
-        .then(data => {
-            materias = JSON.parse(localStorage.getItem('materias')) || data;
-        })
-        .catch(err => console.error("Error cargando materias:", err));
+   fetch('./data/materias.json')
+    .then(res => res.json())
+    .then(data => {
+        const stored = localStorage.getItem('materias');
+        materias = stored ? JSON.parse(stored) : data;
+        mostrarMaterias(); // Genera el DOM con las materias
+    })
+    .catch(err => console.error("Error cargando materias:", err));
+
 
     // Registro de alumno
     document.getElementById('btn-registrar').addEventListener('click', () => {
