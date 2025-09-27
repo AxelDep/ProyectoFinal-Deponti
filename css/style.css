@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #0b1d4a; /* Azul oscuro facultad */
+    background-color: #0b1d4a; 
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -54,7 +54,7 @@ input[type="text"] {
 .btn {
     padding: 10px 15px;
     margin: 5px 5px 0 0;
-    background-color: #0b1d4a; /* azul oscuro */
+    background-color: #0b1d4a; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -63,7 +63,7 @@ input[type="text"] {
 }
 
 .btn:hover {
-    background-color: #1a2a6c; /* un poco más claro al pasar el mouse */
+    background-color: #1a2a6c; 
 }
 
 .hidden {
