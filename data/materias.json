@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Matemática I", "cupo": 5, "inscriptos": [] },
+    { "id": 2, "nombre": "Física I", "cupo": 5, "inscriptos": [] },
+    { "id": 3, "nombre": "Química I", "cupo": 5, "inscriptos": [] },
+    { "id": 4, "nombre": "Programación I", "cupo": 5, "inscriptos": [] },
+    { "id": 5, "nombre": "Historia", "cupo": 5, "inscriptos": [] },
+    { "id": 6, "nombre": "Inglés", "cupo": 5, "inscriptos": [] },
+    { "id": 7, "nombre": "Filosofía", "cupo": 5, "inscriptos": [] }
+]

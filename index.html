@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>ProyectoFinal-Deponti - Ecommerce</title>
-
-  <!-- SweetAlert2 -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-  <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Inscripción - Deponti</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">A Boxes Shop</div>
-    <nav class="main-nav">
-      <a href="#" class="nav-link">Inicio</a>
-      <a href="#" class="nav-link">Productos</a>
-      <a href="#" id="viewCart" class="nav-link">
-        Carrito 🛒 <span id="cartCount" class="cart-count">0</span>
-      </a>
-    </nav>
-  </header>
+    <header>
+        <h1>Simulador de Inscripción a Materias</h1>
+    </header>
 
-  <main>
-    <section id="products" class="products-grid"></section>
-    <aside id="cart" class="cart-panel"></aside>
-  </main>
+    <main>
+        <!-- Registro de alumno -->
+        <section id="registro">
+            <h2>Registro de Alumno</h2>
+            <input type="text" id="nombre-alumno" placeholder="Ingrese su nombre">
+            <button id="btn-registrar" class="btn">Registrarse</button>
+        </section>
 
-  <footer class="site-footer">
-    <p>Proyecto Final - Deponti</p>
-  </footer>
+        <!-- Materias -->
+        <section id="materias-container" class="hidden">
+            <h2>Materias Disponibles</h2>
+            <div id="lista-materias" class="materias"></div>
+        </section>
 
-  <script type="module" src="js/app.js"></script>
+        <!-- Inscripciones -->
+        <section id="inscripciones" class="hidden">
+            <h2>Mis Inscripciones</h2>
+            <ul id="lista-inscripciones"></ul>
+            <button id="btn-terminar" class="btn">Terminar Inscripción</button>
+            <button id="btn-cerrar" class="btn">Cerrar Sesión</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Deponti - Simulador de Inscripción</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
