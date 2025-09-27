@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Remera A Boxes",
+    "price": 5000,
+    "stock": 10,
+    "img": "https://picsum.photos/seed/remera/400/300"
+  },
+  {
+    "id": 2,
+    "title": "Gorra A Boxes",
+    "price": 2500,
+    "stock": 15,
+    "img": "https://picsum.photos/seed/gorra/400/300"
+  },
+  {
+    "id": 3,
+    "title": "Taza F1",
+    "price": 1200,
+    "stock": 20,
+    "img": "https://picsum.photos/seed/taza/400/300"
+  }
+]
